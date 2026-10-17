@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this guide, please cite it as below."
+type: software
+authors:
+  - family-names: "Fernandes"
+    given-names: "Bruno"
+    email: "bruno.fernandes@tum.de"
+    orcid: "https://orcid.org/0009-0008-5898-9698"
+    affiliation: "Technical University of Munich"
+title: "Building a Custom WSL2 Kernel for WiFi Simulation"
+abstract: "How to recompile the WSL2 Linux kernel with mac80211_hwsim support, required to run Mininet-WiFi or MiniNDN-WiFi on Windows 10/11 via WSL2."
+version: 1.1.0
+date-released: 2026-10-17
+repository-code: "https://github.com/brunosfer/wsl2-wireless-kernel"
+keywords:
+  - wsl
+  - wifi
+  - emulation
+  - minindn-wifi
+  - mininet-wifi
+  - wmediumd
+license: CC-BY-4.0
