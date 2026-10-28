@@ -296,7 +296,7 @@ cp arch/x86/boot/bzImage /mnt/c/Users/<YourUsername>/wsl-kernel/vmlinux_wifi
 
 <a name="step5"></a>
 ## 5. Configure WSL to use the New Kernel
-In Windows, go to `%USERPROFILE%` (Usually in path: `C:\Users<YourUsername>`).
+In Windows, go to `%USERPROFILE%` (Usually in path: `C:\Users\<YourUsername>`).
 
 > [!NOTE]
 > To create the file `.wslconfig` it's easier if you have hidden files and folders visible.
