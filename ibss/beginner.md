@@ -59,7 +59,7 @@ Inside your WSL2 instance install the build dependencies:
 
 ```bash
 sudo apt update
-sudo apt install build-essential flex bison libssl-dev libelf-dev bc dwarves libncurses-dev git cpio
+sudo apt install build-essential flex bison libssl-dev libelf-dev bc dwarves libncurses-dev git cpio iw
 ```
 
 Additionally, install the wireless regulatory database:
