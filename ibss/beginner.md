@@ -59,7 +59,7 @@ Inside your WSL2 instance install the build dependencies:
 
 ```bash
 sudo apt update
-sudo apt install build-essential flex bison libssl-dev libelf-dev bc dwarves libncurses-dev git
+sudo apt install build-essential flex bison libssl-dev libelf-dev bc dwarves libncurses-dev git cpio iw
 ```
 
 Additionally, install the wireless regulatory database:
@@ -296,7 +296,7 @@ cp arch/x86/boot/bzImage /mnt/c/Users/<YourUsername>/wsl-kernel/vmlinux_wifi
 
 <a name="step5"></a>
 ## 5. Configure WSL to use the New Kernel
-In Windows, go to `%USERPROFILE%` (Usually in path: `C:\Users<YourUsername>`).
+In Windows, go to `%USERPROFILE%` (Usually in path: `C:\Users\<YourUsername>`).
 
 > [!NOTE]
 > To create the file `.wslconfig` it's easier if you have hidden files and folders visible.
